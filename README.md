@@ -55,7 +55,7 @@ FROM patients
 WHERE YEAR(birth_date) = 2010
 
 
-###### 9) Show the first_name, last_name, and height of the patient with the greatest height.
+## 9) Show the first_name, last_name, and height of the patient with the greatest height.
 
 SELECT first_name, last_name, MAX(height) as height
 FROM patients;
