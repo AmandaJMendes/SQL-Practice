@@ -1,9 +1,10 @@
 # SQL-Practice
 
 ###### 1) Show first name, last name, and gender of patients who's gender is 'M'
+SELECT first_name, last_name, gender  
 
-SELECT first_name, last_name, gender 
-FROM patients
+FROM patients  
+
 WHERE gender = 'M';
 
 
